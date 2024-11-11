@@ -1,5 +1,7 @@
 package com.intertive.net
 
+import com.`in`.speed.domain.speed.SpeedCheckManager
+
 
 class TestNet {
 
@@ -7,7 +9,7 @@ class TestNet {
 
 
         fun test(){
-
+            SpeedCheckManager().setPath("path")
         }
 
     }
